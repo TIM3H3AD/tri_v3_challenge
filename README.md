@@ -1,6 +1,6 @@
 Triangles (TRI) "Black Pharao" Version 4.2.1.0 Release, 
 
-* Adding a pre-compiled address.o to the src/obj folder solved my issues compiling trianglesd. 
+* Adding 'address.o' (from the compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues. 
 * Everything else is as is from https://github.com/wurstgelee/triangles.
 
 wurstgelee's build recipe:
