@@ -2,7 +2,7 @@ Triangles (TRI) "Black Pharao" Version 4.2.1.0 Release,
 
   -added a pre-compiled address.o to the src/obj folder. Everything else is as is from wurstgelee.
 
-Here is wurstgelee's build recipe:
+  wurstgelee's build recipe:
 
   sudo apt-get update
   sudo apt-get upgrade           
