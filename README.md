@@ -3,6 +3,24 @@ Triangles (TRI) "Black Pharao" Version 4.2.1.0 Release,
 * Adding 'address.o' (from the compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues. 
 * Everything else is as is from https://github.com/wurstgelee/triangles.
 
+Note: To compile on 18.04 you will need to downgrade SSL. Skip these REMOVE & INSTALL SSL commands if installing on 16.04 & just BUILD)
+REMOVE & INSTALL SSL (for 18.04+)
+
+sudo apt remove libssl-dev
+
+sudo apt install libssl1.0-dev
+BUILD
+
+cd src/leveldb
+
+chmod 755 *
+
+cd ..
+
+make -f makefile.unix
+
+= = = 
+
 wurstgelee's build recipe:
 
 sudo apt-get update
