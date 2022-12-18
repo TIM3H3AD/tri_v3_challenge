@@ -1,15 +1,19 @@
-Triangles (TRI) "Black Pharao" Version 4.2.1.0 Release, 
-
+Triangles (TRI) "wv" Version 4.2.1.1 Release, *
+(this could be considered a fork of the OG 2014 TRI at block 2186966)
 * Adding 'address.o' (from the compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues. 
+* New seednode whaleqt5h3e4b5olfqv3p3zyctgn3lur2ppsz7dtfcwitez4ksiw6bad.onion added to onionseed.h 
 * Everything else is as is from https://github.com/wurstgelee/triangles.
 
-Note: To compile on 18.04 you will need to downgrade SSL. Skip these REMOVE & INSTALL SSL commands if installing on 16.04 & just BUILD)
-REMOVE & INSTALL SSL (for 18.04+)
+Note: To compile on 18.04 you will need to downgrade SSL. 
+Skip these REMOVING & INSTALLING SSL commands if installing on 16.04 & just gt build BUILD)
+
+REMOVING & INSTALLING SSL (for 18.04+)
 
 sudo apt remove libssl-dev
 
 sudo apt install libssl1.0-dev
-BUILD
+
+BUILD (starting in /trianglesd_build directory)
 
 cd src/leveldb
 
@@ -21,7 +25,7 @@ make -f makefile.unix
 
 = = = 
 
-wurstgelee's build recipe:
+wurstgelee's build recipe for reference:
 
 sudo apt-get update
 
