@@ -1,0 +1,18 @@
+obj/anonymize.o: tor/anonymize.cpp tor/anonymize.h \
+ /home/wb/trianglesd_build/src/util.h \
+ /home/wb/trianglesd_build/src/uint256.h \
+ /home/wb/trianglesd_build/src/netbase.h \
+ /home/wb/trianglesd_build/src/serialize.h \
+ /home/wb/trianglesd_build/src/allocators.h \
+ /home/wb/trianglesd_build/src/version.h \
+ /home/wb/trianglesd_build/src/clientversion.h \
+ /home/wb/trianglesd_build/src/compat.h
+tor/anonymize.cpp tor/anonymize.h :
+ /home/wb/trianglesd_build/src/util.h :
+ /home/wb/trianglesd_build/src/uint256.h :
+ /home/wb/trianglesd_build/src/netbase.h :
+ /home/wb/trianglesd_build/src/serialize.h :
+ /home/wb/trianglesd_build/src/allocators.h :
+ /home/wb/trianglesd_build/src/version.h :
+ /home/wb/trianglesd_build/src/clientversion.h :
+ /home/wb/trianglesd_build/src/compat.h :
