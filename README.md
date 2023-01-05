@@ -1,8 +1,15 @@
 Triangles (TRI) "wv" Version 4.2.1.1 Release, *
 (this could be considered a fork of the OG 2014 TRI at block 2186966)
-* Adding 'address.o' (from the compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues. 
-* New seednode whaleqt5h3e4b5olfqv3p3zyctgn3lur2ppsz7dtfcwitez4ksiw6bad.onion added to onionseed.h 
-* Everything else is as is from https://github.com/wurstgelee/triangles.
+
+Originally created this repo after having difficulties building trianglesd from scratch. 
+* Adding 'address.o' (from a compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues.
+
+Updated in December, 2022 after the TOR network stopped accepting TRI V2 onion addresses. 
+A tried a few things before realizing this is beyond my skillset and have partered with Decentral in offering a 1999 TRI + $1000 USD/BTC/etc BOUNTY to make TRI codebase compatible with TOR V3 addresses.
+
+* Everything else is as is from https://github.com/wurstgelee/triangles. 
+
+PLEASE MAKE YOUR OWN FORK from https://github.com/wurstgelee/triangles!!
 
 Note: To compile on 18.04 you will need to downgrade SSL. 
 Skip these REMOVING & INSTALLING SSL commands if installing on 16.04 & just gt build BUILD)
