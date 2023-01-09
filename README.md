@@ -11,7 +11,7 @@ Everyone I talk to says TOR is obsolete and am therefore open to some other tunn
 
 * Everything else is as is from https://github.com/wurstgelee/triangles. 
 
-PLEASE MAKE YOUR OWN FORK from https://github.com/wurstgelee/triangles!!
+PLEASE MAKE YOUR OWN FORK from https://github.com/wurstgelee/triangles!
 
 Note: To compile on 18.04 you will need to downgrade SSL. 
 Skip these REMOVING & INSTALLING SSL commands if installing on 16.04 & just gt build BUILD)
