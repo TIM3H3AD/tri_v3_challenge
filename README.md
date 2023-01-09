@@ -5,7 +5,7 @@ Originally created this repo after having difficulties building trianglesd from 
 * Adding 'address.o' (from a compiled triangles-qt's build folder) to the src/obj folder solved my trianglesd compiling issues.
 
 Updated in December, 2022 after the TOR network stopped accepting TRI V2 onion addresses. 
-After trying a few things and realizing this is beyond my skillset, I ave partered with Decentral in offering a 1999 TRI + $1000 USD/BTC/etc BOUNTY to make TRI codebase compatible with TOR V3 addresses. 
+After trying a few things and realizing this is beyond my skillset, I have partered with Decentral in offering a 1999 TRI + $1000 USD/BTC/etc BOUNTY to make TRI codebase compatible with TOR V3 addresses. 
 
 Everyone I talk to says TOR is obsolete and am therefore open to some other tunneling solution. Perhaps TRI is the TUNNEL!?! 
 
